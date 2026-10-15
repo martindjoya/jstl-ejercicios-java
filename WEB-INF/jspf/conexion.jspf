@@ -1,0 +1,6 @@
+<%-- Ajusta el usuario y la contraseña a la configuración local de MySQL. --%>
+<sql:setDataSource var="conexionEmpleados"
+	driver="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://localhost:3307/empleados"
+	user="estudiantes"
+	password="Uts2022" />
