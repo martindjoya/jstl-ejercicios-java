@@ -1,0 +1,13 @@
+{
+	"deploy": {
+		"container": "tomcat",
+		"war": {
+			"file": "target/jstl-ejercicios-java.war",
+			"context": "/",
+			"checkMe": "/"
+		}
+	},
+	"tomcat": {
+		"version": "8.5.96"
+	}
+}
